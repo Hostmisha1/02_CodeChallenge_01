@@ -60,7 +60,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 // Kompakt, aber schlecht lesbar
 
 console.log(
-    "Die Summe ist " + summe
+    "Die Summe ist " + 
     (
         parseInt(prompt("Bitte Zahl 1 eingeben")) +
         parseInt(prompt("Bitte Zahl 2 eingeben"))

@@ -20,25 +20,51 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 
 // Vorteile: gute Lesbarkeit | aber viele Variablen
 
-// Deklaration
+// // Deklaration
 
-let ziffer1, ziffer2;
-let zahl1, zahl2, summe;
+// let ziffer1, ziffer2;
+// let zahl1, zahl2, summe;
 
-// Eingabe : Ziffern
-ziffer1 = prompt("Bitte Zahl 1 eingeben"); // 2
-ziffer2 = prompt("Bitte Zahl 2 eingeben"); // 2
-console.log(typeof zahl1);
-console.log(typeof zahl2);
+// // Eingabe : Ziffern
+// ziffer1 = prompt("Bitte Zahl 1 eingeben"); // 2
+// ziffer2 = prompt("Bitte Zahl 2 eingeben"); // 2
+// console.log(typeof zahl1);
+// console.log(typeof zahl2);
 
-//console.log(ziffer1 + ziffer2); da werden zahlen nebeneinander gestellt
+// //console.log(ziffer1 + ziffer2); da werden zahlen nebeneinander gestellt
 
-//Typenkonvertierung | Ziffer --> Zahl (string --> number)
-zahl1 = parseInt(ziffer1);
-zahl2 = praseInt(ziffer2);
-console.log(typeof zahl1);
-console.log(typeof zahl2);
+// //Typenkonvertierung | Ziffer --> Zahl (string --> number)
+// zahl1 = parseInt(ziffer1);
+// zahl2 = praseInt(ziffer2);
+// console.log(typeof zahl1);
+// console.log(typeof zahl2);
 
-//Berechnung : Summe
-summe = zahl1 + zahl2;
-console.log("Die Summe ist: " + summe);
+// //Berechnung : Summe
+// summe = zahl1 + zahl2;
+// console.log("Die Summe ist: " + summe);
+
+
+/********************************* Variante 2 ****************/
+
+// // Kompakte Lösung
+
+// let zahl1, zahl2, summe;
+
+// zahl1 = parseInt(prompt("Bitte Zahl 1 eingeben"));
+// zahl2 = parseInt(prompt("Bitte Zahl 2 eingeben"));
+// summe = zahl1 + zahl2;
+// console.log("Die Summe ist: " + summe:;)
+
+
+/***********Variante 3 *********/
+// Kompakt, aber schlecht lesbar
+
+console.log(
+    "Die Summe ist " + summe
+    (
+        parseInt(prompt("Bitte Zahl 1 eingeben")) +
+        parseInt(prompt("Bitte Zahl 2 eingeben"))
+    )
+);
+
+

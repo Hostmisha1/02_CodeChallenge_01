@@ -32,3 +32,13 @@ console.log(typeof zahl1);
 console.log(typeof zahl2);
 
 //console.log(ziffer1 + ziffer2); da werden zahlen nebeneinander gestellt
+
+//Typenkonvertierung | Ziffer --> Zahl (string --> number)
+zahl1 = parseInt(ziffer1);
+zahl2 = praseInt(ziffer2);
+console.log(typeof zahl1);
+console.log(typeof zahl2);
+
+//Berechnung : Summe
+summe = zahl1 + zahl2;
+console.log("Die Summe ist: " + summe);
